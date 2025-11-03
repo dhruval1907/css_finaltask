@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 80px ;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+/* .man{
+    
+} */
+
+.man1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: black;
+}
+
+.man01{
+    height: 800px;
+    width: 800px;
+    background-color: #F0DE36;
+    border-radius: 50%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.man001{
+    margin-bottom: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.man001 h2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.man001 h1{
+    margin: 10px;
+    font-size: 70px;
+}
+
+button{
+    padding: 12px;
+    margin: 30px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(24, 5, 116);
+    border: transparent;
+    border-radius: 5px;
+}
+
+.man02 {
+    background-color: #2b99cc;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    margin-top: 487px;
+}
+
+.man03 {
+    position: absolute;
+    margin-top: 330px;
+}
+
+.man03 img{
+    height: 220px;
+}
